@@ -2,128 +2,82 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Stromtarife vergleichen & sparen – Jetzt günstige Anbieter finden auf strom.lighthouse-db.de mit Check24." />
-  <meta name="keywords" content="Stromvergleich, Stromtarif, Stromanbieter wechseln, Stromkosten sparen, Check24 Strom" />
-  <meta name="author" content="Lighthouse Individual" />
-  <title>Stromtarife vergleichen & sparen | Strom.Lighthouse-db.de</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stromtarife vergleichen – Strom sparen</title>
+  <meta name="description" content="Jetzt Stromanbieter wechseln & sparen mit Check24">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css" rel="stylesheet">
   <style>
-    :root {
-      --accent: #007aff;
-      --bg: #fff;
-      --text: #111;
-      --gray: #666;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--text);
+      background: #f4f7fa;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 18px;
       line-height: 1.6;
-      font-size: 16px;
+      color: #222;
+      margin: 0;
     }
-
-    header {
-      padding: 2rem 1rem;
+    header, footer {
+      background-color: #002244;
+      color: white;
       text-align: center;
-      background-color: #f7f7f7;
-      border-bottom: 1px solid #ddd;
+      padding: 2.5rem 1rem;
     }
-
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      color: var(--gray);
-    }
-
     main {
-      max-width: 800px;
-      margin: 2rem auto;
+      max-width: 1000px;
+      margin: 3rem auto;
       padding: 0 1rem;
     }
-
-    .cta-box {
-      background: var(--accent);
-      color: white;
-      padding: 1.5rem;
-      border-radius: 12px;
+    h1, h2 {
+      color: #002244;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
       text-align: center;
-      margin: 2rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
-
-    .cta-box h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .cta-box a {
+    .button {
       display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background: white;
-      color: var(--accent);
+      margin-top: 1rem;
+      background: #f9b000;
+      color: black;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 8px;
     }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.875rem;
-      color: var(--gray);
+    .button:hover {
+      background-color: #ffcb3f;
     }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.5rem;
-      }
-
-      .cta-box h2 {
-        font-size: 1.25rem;
-      }
+    footer a {
+      color: #f9b000;
+      text-decoration: none;
+      margin: 0 0.5rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Stromtarife vergleichen & sparen</h1>
-    <p>Jetzt den günstigsten Stromanbieter finden – schnell & einfach mit Check24</p>
-  </header>
-
-  <main>
-    <section>
-      <p>Willkommen bei <strong>strom.lighthouse-db.de</strong> – Ihrem Partner für günstige Strompreise. Wir helfen Ihnen, mit wenigen Klicks den passenden Stromtarif zu finden und zu wechseln. Unser Partner <strong>Check24</strong> bietet Ihnen den direkten Zugang zu den besten Tarifen in Ihrer Region.</p>
-    </section>
-
-    <section class="cta-box">
-      <h2>Jetzt Stromtarif vergleichen</h2>
-      <a href="https://www.c24n.de/yxRoEss" target="_blank" rel="nofollow noopener">Zum Stromvergleich ➔</a>
-    </section>
-
-    <section>
-      <h2>Warum ein Stromvergleich sinnvoll ist</h2>
-      <ul>
-        <li>✔️ Bis zu 300 € jährlich sparen</li>
-        <li>✔️ Wechsel in wenigen Minuten</li>
-        <li>✔️ 100 % kostenlos & unverbindlich</li>
-        <li>✔️ Keine Unterbrechung der Stromversorgung</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Lighthouse Individual – <a href="/impressum">Impressum</a> | <a href="/datenschutz">Datenschutz</a></p>
-  </footer>
+<header>
+  <h1>Stromtarife vergleichen</h1>
+  <p>Jetzt Stromanbieter wechseln & sparen mit Check24</p>
+</header>
+<main>
+  <div class="grid">
+    <div class="card"><h3>⚡ Preisvorteile</h3><p>Bis zu 300 € jährlich durch Anbieterwechsel.</p></div><div class="card"><h3>🔁 Einfacher Wechsel</h3><p>Check24 kümmert sich um Kündigung & Service.</p></div><div class="card"><h3>📍 Regional passend</h3><p>Tarife passend zu Postleitzahl & Verbrauch.</p></div>
+  </div>
+  <p style="text-align:center;">
+    <a href="https://www.c24n.de/yxRoEss" class="button">Jetzt vergleichen</a>
+  </p>
+</main>
+<footer>
+  <p><a href="/index.html">&larr; Zurück zur Startseite</a></p>
+  <p>&copy; 2025 Lighthouse Individual</p>
+</footer>
 </body>
 </html>
